@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Context displayName="JSP10 Samples" docBase="jsp10" path="/jsp10"
+  reloadable="true">
+  <Resource name="jdbc/Jsp10" auth="Container"
+    type="javax.sql.DataSource" username="dict_demo" password="dict_demo"
+    driverClassName="com.mysql.jdbc.Driver"
+    url="jdbc:mysql://localhost/dict_demo?useUnicode=true&amp;characterEncoding=UTF-8" maxActive="4" maxWait="5000" maxIdle="2"
+    validationQuery="SELECT count(*) FROM words" />
+</Context>
